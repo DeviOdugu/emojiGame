@@ -1,0 +1,22 @@
+/* Write your code here. */
+.list-card {
+  background-color: #9796f0;
+  border-radius: 8px;
+  margin: 10px;
+  list-style-type: none;
+  padding: 40px;
+  border: solid #ffffff30 2px;
+}
+@media screen and (max-width: 576px) {
+  .list-card {
+    padding: 20px;
+  }
+  .emoji-image {
+    height: 30px;
+    width: 30px;
+  }
+}
+.emoji-button {
+  background-color: transparent;
+  border: none;
+}

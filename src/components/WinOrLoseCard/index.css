@@ -1,0 +1,56 @@
+/* Write your code here. */
+.result-card {
+  background-color: #9796f0;
+  display: flex;
+  margin: 100px;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid #ffffff30 2px;
+}
+@media screen and (min-width: 1000px) {
+  .result-card {
+    margin: 120px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .result-card {
+    margin: 20px;
+  }
+}
+.text {
+  font-size: 30px;
+}
+.win-emoji {
+  margin-top: 10px;
+}
+.lose-emoji {
+  margin-top: 10px;
+}
+.button {
+  background-color: #ffce27;
+  border: none;
+  border-radius: 16px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #3d3d3d;
+  font-size: 10px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.best-score {
+  padding-left: 10px;
+}
+.score-text {
+  padding-left: 20px;
+}
+.total-score {
+  color: #6a59ff;
+  font-size: 25px;
+  font-weight: 900;
+  padding-left: 15px;
+}

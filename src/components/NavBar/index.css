@@ -1,0 +1,25 @@
+/* Write your code here. */
+.nav-card {
+  background-color: #9796f0;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto';
+  font-size: 13px;
+  padding: 5px;
+}
+.heading {
+  font-size: 12px;
+  padding-top: 2px;
+}
+.scores {
+  display: flex;
+  padding-right: 20px;
+}
+.score {
+  padding-right: 10px;
+}
+.emoji-logo {
+  margin-top: 7px;
+  margin-left: 10px;
+}

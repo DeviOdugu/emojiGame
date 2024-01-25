@@ -1,0 +1,29 @@
+/* Write your code here. */
+.card-container {
+  background-image: linear-gradient(to right, #6a59ff, #fbc7d4);
+  padding-bottom: 20px;
+  margin: 20px;
+  margin-right: 200px;
+}
+.lists {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 1000px) {
+  .card-container {
+    margin-right: 600px;
+  }
+  .lists {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .card-container {
+    margin-right: 15px;
+  }
+  .lists {
+    margin-left: 0px;
+  }
+}
